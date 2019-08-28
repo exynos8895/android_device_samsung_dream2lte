@@ -21,7 +21,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),dreamlte)
+ifeq ($(TARGET_DEVICE),dream2lte)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
